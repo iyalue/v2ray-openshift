@@ -1,7 +1,3 @@
-#!/bin/sh
-# V2Ray new configuration
-# Run V2Ray
-cat <<-EOF > /etc/v2ray/config.json
 {
   "inbounds": [
   {
@@ -10,7 +6,7 @@ cat <<-EOF > /etc/v2ray/config.json
     "settings": {
       "clients": [
         {
-          "id": "ba651c8c-cb35-4c46-bf6c-f90bd6f094e3",
+          "id": "cb01c0b2-3a21-41bf-b0aa-4b095a301e88",
           "alterId": 64
         }
       ]
@@ -27,5 +23,3 @@ cat <<-EOF > /etc/v2ray/config.json
   }
   ]
 }
-EOF
-/usr/bin/v2ray/v2ray -config=/etc/v2ray/config.json
